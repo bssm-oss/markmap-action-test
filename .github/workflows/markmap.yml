@@ -13,25 +13,15 @@ permissions:
   id-token: write
 
 jobs:
-  deploy:
+  markmap:
     runs-on: ubuntu-latest
     environment:
       name: github-pages
-      url: ${{ steps.deploy.outputs.page_url }}
+      url: ${{ steps.markmap.outputs.page-url }}
     steps:
       - uses: actions/checkout@v4
 
-      - uses: bssm-oss/markmap-actions@main
+      - id: markmap
+        uses: bssm-oss/markmap-actions@main
         with:
           files: '**/*.md'
-          output-dir: '.markmap'
-          format: 'html'
-          toolbar: 'true'
-          commit: 'false'
-
-      - uses: actions/upload-pages-artifact@v3
-        with:
-          path: '.markmap'
-
-      - id: deploy
-        uses: actions/deploy-pages@v4
