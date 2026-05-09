@@ -1,0 +1,108 @@
+<svg id="mindmap" class="markmap mindmap" xmlns="http://www.w3.org/2000/svg" xmlns:xhtml="http://www.w3.org/1999/xhtml" width="1920" height="1080"><style>.markmap {
+  --markmap-max-width: 9999px;
+  --markmap-a-color: #0097e6;
+  --markmap-a-hover-color: #00a8ff;
+  --markmap-code-bg: #f0f0f0;
+  --markmap-code-color: #555;
+  --markmap-highlight-bg: #ffeaa7;
+  --markmap-table-border: 1px solid currentColor;
+  --markmap-font: 300 16px/20px sans-serif;
+  --markmap-circle-open-bg: #fff;
+  --markmap-text-color: #333;
+  --markmap-highlight-node-bg: #ff02;
+
+  font: var(--markmap-font);
+  color: var(--markmap-text-color);
+}
+
+  .markmap-link {
+    fill: none;
+  }
+
+  .markmap-node &gt; circle {
+      cursor: pointer;
+    }
+
+  .markmap-foreign {
+    display: inline-block;
+  }
+
+  .markmap-foreign p {
+      margin: 0;
+    }
+
+  .markmap-foreign a {
+      color: var(--markmap-a-color);
+    }
+
+  .markmap-foreign a:hover {
+        color: var(--markmap-a-hover-color);
+      }
+
+  .markmap-foreign code {
+      padding: 0.25em;
+      font-size: calc(1em - 2px);
+      color: var(--markmap-code-color);
+      background-color: var(--markmap-code-bg);
+      border-radius: 2px;
+    }
+
+  .markmap-foreign pre {
+      margin: 0;
+    }
+
+  .markmap-foreign pre &gt; code {
+        display: block;
+      }
+
+  .markmap-foreign del {
+      text-decoration: line-through;
+    }
+
+  .markmap-foreign em {
+      font-style: italic;
+    }
+
+  .markmap-foreign strong {
+      font-weight: bold;
+    }
+
+  .markmap-foreign mark {
+      background: var(--markmap-highlight-bg);
+    }
+
+  .markmap-foreign table,
+    .markmap-foreign th,
+    .markmap-foreign td {
+      border-collapse: collapse;
+      border: var(--markmap-table-border);
+    }
+
+  .markmap-foreign img {
+      display: inline-block;
+    }
+
+  .markmap-foreign svg {
+      fill: currentColor;
+    }
+
+  .markmap-foreign &gt; div {
+      width: var(--markmap-max-width);
+      text-align: left;
+    }
+
+  .markmap-foreign &gt; div &gt; div {
+        display: inline-block;
+      }
+
+  .markmap-highlight rect {
+    fill: var(--markmap-highlight-node-bg);
+  }
+
+.markmap-dark .markmap {
+  --markmap-code-bg: #1a1b26;
+  --markmap-code-color: #ddd;
+  --markmap-circle-open-bg: #444;
+  --markmap-text-color: #eee;
+}
+</style><g transform="translate(534,540) scale(2)"><path class="markmap-link" data-depth="3" data-path="1.2.3" d="M241.99995014032774,-73.24998490817772C281.9999418990596,-73.24998490817772,281.9999418990596,-99.81197943556361,321.9999336577915,-99.81197943556361" stroke-width="1.3749997167064076" stroke="rgb(44, 160, 44)"></path><path class="markmap-link" data-depth="3" data-path="1.2.4" d="M241.99995014032774,-73.24998490817772C281.9999418990596,-73.24998490817772,281.9999418990596,-73.43698486964978,321.9999336577915,-73.43698486964978" stroke-width="1.3749997167064076" stroke="rgb(214, 39, 40)"></path><path class="markmap-link" data-depth="3" data-path="1.2.5" d="M241.99995014032774,-73.24998490817772C281.9999418990596,-73.24998490817772,281.9999418990596,-47.06199030373597,321.9999336577915,-47.06199030373597" stroke-width="1.3749997167064076" stroke="rgb(148, 103, 189)"></path><path class="markmap-link" data-depth="3" data-path="1.6.7" d="M241.99995014032774,10.874997759405225C281.9999418990596,10.874997759405225,281.9999418990596,-15.686996767980666,321.9999336577915,-15.686996767980666" stroke-width="1.3749997167064076" stroke="rgb(227, 119, 194)"></path><path class="markmap-link" data-depth="3" data-path="1.6.8" d="M241.99995014032774,10.874997759405225C281.9999418990596,10.874997759405225,281.9999418990596,10.687997797933154,321.9999336577915,10.687997797933154" stroke-width="1.3749997167064076" stroke="rgb(127, 127, 127)"></path><path class="markmap-link" data-depth="3" data-path="1.6.9" d="M241.99995014032774,10.874997759405225C281.9999418990596,10.874997759405225,281.9999418990596,37.06299236384697,321.9999336577915,37.06299236384697" stroke-width="1.3749997167064076" stroke="rgb(188, 189, 34)"></path><path class="markmap-link" data-depth="3" data-path="1.10.11" d="M241.99995014032774,94.99998042698816C281.9999418990596,94.99998042698816,281.9999418990596,68.43798589960228,321.9999336577915,68.43798589960228" stroke-width="1.3749997167064076" stroke="rgb(31, 119, 180)"></path><path class="markmap-link" data-depth="3" data-path="1.10.12" d="M241.99995014032774,94.99998042698816C281.9999418990596,94.99998042698816,281.9999418990596,94.81298046551609,321.9999336577915,94.81298046551609" stroke-width="1.3749997167064076" stroke="rgb(255, 127, 14)"></path><path class="markmap-link" data-depth="3" data-path="1.10.13" d="M241.99995014032774,94.99998042698816C281.9999418990596,94.99998042698816,281.9999418990596,121.18797503142991,321.9999336577915,121.18797503142991" stroke-width="1.3749997167064076" stroke="rgb(44, 160, 44)"></path><path class="markmap-link" data-depth="2" data-path="1.2" d="M84.9999824873052,11.249997682143336C124.99997424603706,11.249997682143336,124.99997424603706,-73.24998490817772,164.9999660047689,-73.24998490817772" stroke-width="1.749999639444519" stroke="rgb(255, 127, 14)"></path><path class="markmap-link" data-depth="2" data-path="1.6" d="M84.9999824873052,11.249997682143336C124.99997424603706,11.249997682143336,124.99997424603706,10.874997759405225,164.9999660047689,10.874997759405225" stroke-width="1.749999639444519" stroke="rgb(140, 86, 75)"></path><path class="markmap-link" data-depth="2" data-path="1.10" d="M84.9999824873052,11.249997682143336C124.99997424603706,11.249997682143336,124.99997424603706,94.99998042698816,164.9999660047689,94.99998042698816" stroke-width="1.749999639444519" stroke="rgb(23, 190, 207)"></path><g class="markmap-highlight"></g><g data-depth="3" data-path="1.2.3" class="markmap-node" transform="translate(321.99991490890716, -120.49997929381394)"><line stroke="#2ca02c" stroke-width="1.3749997167064076" x1="-0.9999810450832757" x2="92.99999958793659" y1="20.6875" y2="20.6875"></line><foreignObject class="markmap-foreign" x="8" y="0" style="opacity: 1;" width="75" height="20"><div><div xmlns="http://www.w3.org/1999/xhtml">MVP 릴리즈</div></div></foreignObject></g><g data-depth="3" data-path="1.2.4" class="markmap-node" transform="translate(321.9999171752549, -94.1249847278998)"><line stroke="#d62728" stroke-width="1.3749997167064076" x1="-0.9999833114320145" x2="81.99999958793659" y1="20.6875" y2="20.6875"></line><foreignObject class="markmap-foreign" x="8" y="0" style="opacity: 1;" width="64" height="20"><div><div xmlns="http://www.w3.org/1999/xhtml">사용자 인증</div></div></foreignObject></g><g data-depth="3" data-path="1.2.5" class="markmap-node" transform="translate(321.99991490890716, -67.74999016198609)"><line stroke="#9467bd" stroke-width="1.3749997167064076" x1="-0.9999810450832757" x2="92.99999958793659" y1="20.6875" y2="20.6875"></line><foreignObject class="markmap-foreign" x="8" y="0" style="opacity: 1;" width="75" height="20"><div><div xmlns="http://www.w3.org/1999/xhtml">기본 CRUD</div></div></foreignObject></g><g data-depth="2" data-path="1.2" class="markmap-node" transform="translate(164.9999501403281, -94.1249847278998)"><line stroke="#ff7f0e" stroke-width="1.749999639444519" x1="-0.999983929527125" x2="78.99999958793659" y1="20.875" y2="20.875"></line><circle stroke-width="1.499999690952445" r="5.99999876380978" stroke="#ff7f0e" fill="var(--markmap-circle-open-bg)" cx="77" cy="20.875"></circle><foreignObject class="markmap-foreign" x="8" y="0" style="opacity: 1;" width="61" height="20"><div><div xmlns="http://www.w3.org/1999/xhtml">Q1 2025</div></div></foreignObject></g><g data-depth="3" data-path="1.6.7" class="markmap-node" transform="translate(321.9999171752549, -36.374996626231045)"><line stroke="#e377c2" stroke-width="1.3749997167064076" x1="-0.9999833114320145" x2="81.99999958793659" y1="20.6875" y2="20.6875"></line><foreignObject class="markmap-foreign" x="8" y="0" style="opacity: 1;" width="64" height="20"><div><div xmlns="http://www.w3.org/1999/xhtml">성능 최적화</div></div></foreignObject></g><g data-depth="3" data-path="1.6.8" class="markmap-node" transform="translate(321.9999171752549, -10.00000206031692)"><line stroke="#7f7f7f" stroke-width="1.3749997167064076" x1="-0.9999833114320145" x2="81.99999958793659" y1="20.6875" y2="20.6875"></line><foreignObject class="markmap-foreign" x="8" y="0" style="opacity: 1;" width="64" height="20"><div><div xmlns="http://www.w3.org/1999/xhtml">모바일 지원</div></div></foreignObject></g><g data-depth="3" data-path="1.6.9" class="markmap-node" transform="translate(321.9999229441428, 16.374992505596794)"><line stroke="#bcbd22" stroke-width="1.3749997167064076" x1="-0.9999890803197131" x2="53.99999958793659" y1="20.6875" y2="20.6875"></line><foreignObject class="markmap-foreign" x="8" y="0" style="opacity: 1;" width="36" height="20"><div><div xmlns="http://www.w3.org/1999/xhtml">다국어</div></div></foreignObject></g><g data-depth="2" data-path="1.6" class="markmap-node" transform="translate(164.9999501403281, -10.00000206031692)"><line stroke="#8c564b" stroke-width="1.749999639444519" x1="-0.999983929527125" x2="78.99999958793659" y1="20.875" y2="20.875"></line><circle stroke-width="1.499999690952445" r="5.99999876380978" stroke="#8c564b" fill="var(--markmap-circle-open-bg)" cx="77" cy="20.875"></circle><foreignObject class="markmap-foreign" x="8" y="0" style="opacity: 1;" width="61" height="20"><div><div xmlns="http://www.w3.org/1999/xhtml">Q2 2025</div></div></foreignObject></g><g data-depth="3" data-path="1.10.11" class="markmap-node" transform="translate(321.99991470287426, 47.749986041352045)"><line stroke="#1f77b4" stroke-width="1.3749997167064076" x1="-0.9999808390515721" x2="93.99999958793659" y1="20.6875" y2="20.6875"></line><foreignObject class="markmap-foreign" x="8" y="0" style="opacity: 1;" width="76" height="20"><div><div xmlns="http://www.w3.org/1999/xhtml">오픈소스 공개</div></div></foreignObject></g><g data-depth="3" data-path="1.10.12" class="markmap-node" transform="translate(321.9999122304945, 74.12498060726597)"><line stroke="#ff7f0e" stroke-width="1.3749997167064076" x1="-0.9999783666711298" x2="105.99999958793659" y1="20.6875" y2="20.6875"></line><foreignObject class="markmap-foreign" x="8" y="0" style="opacity: 1;" width="88" height="20"><div><div xmlns="http://www.w3.org/1999/xhtml">플러그인 시스템</div></div></foreignObject></g><g data-depth="3" data-path="1.10.13" class="markmap-node" transform="translate(321.9999167631916, 100.49997517317968)"><line stroke="#2ca02c" stroke-width="1.3749997167064076" x1="-0.9999828993686074" x2="83.9999995879366" y1="20.6875" y2="20.6875"></line><foreignObject class="markmap-foreign" x="8" y="0" style="opacity: 1;" width="66" height="20"><div><div xmlns="http://www.w3.org/1999/xhtml">API 문서화</div></div></foreignObject></g><g data-depth="2" data-path="1.10" class="markmap-node" transform="translate(164.9999501403281, 74.12498060726597)"><line stroke="#17becf" stroke-width="1.749999639444519" x1="-0.999983929527125" x2="78.99999958793659" y1="20.875" y2="20.875"></line><circle stroke-width="1.499999690952445" r="5.99999876380978" stroke="#17becf" fill="var(--markmap-circle-open-bg)" cx="77" cy="20.875"></circle><foreignObject class="markmap-foreign" x="8" y="0" style="opacity: 1;" width="61" height="20"><div><div xmlns="http://www.w3.org/1999/xhtml">Q3 2025</div></div></foreignObject></g><g data-depth="1" data-path="1" class="markmap-node" transform="translate(-0.000017512694862086853, -10.00000206031692)"><line stroke="#1f77b4" stroke-width="2.499999484920741" x1="-0.9999822812734968" x2="86.9999995879366" y1="21.25" y2="21.25"></line><circle stroke-width="1.499999690952445" r="5.99999876380978" stroke="#1f77b4" fill="var(--markmap-circle-open-bg)" cx="85" cy="21.25"></circle><foreignObject class="markmap-foreign" x="8" y="0" style="opacity: 1;" width="69" height="20"><div><div xmlns="http://www.w3.org/1999/xhtml">Roadmap</div></div></foreignObject></g></g></svg>
