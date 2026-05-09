@@ -1,6 +1,32 @@
-# markmap-action-test
+# 한식 마인드맵
 
-Test repository for [bssm-oss/markmap-actions](https://github.com/bssm-oss/markmap-actions).
+## 국물 요리
 
-On every push, the `markmap` workflow converts all `.md` files into interactive HTML mindmaps
-and commits the results under `.markmap/`.
+- 김치찌개
+- 돼지국밥
+- 된장찌개
+- 순두부찌개
+
+## 구이
+
+- 삼겹살
+- 갈비
+- 불고기
+
+## 밥 요리
+
+- 비빔밥
+- 볶음밥
+- 김밥
+
+## 면 요리
+
+- 냉면
+- 짜장면
+- 칼국수
+
+## 반찬
+
+- 김치
+- 나물
+- 잡채
