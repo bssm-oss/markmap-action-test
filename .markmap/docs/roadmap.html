@@ -1,0 +1,52 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+<title>Markmap</title>
+<style>
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-family: ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji',
+    'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+}
+#mindmap {
+  display: block;
+  width: 100vw;
+  height: 100vh;
+}
+.markmap-dark {
+  background: #27272a;
+  color: white;
+}
+</style>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.18.12/dist/style.css">
+</head>
+<body>
+<svg id="mindmap"></svg>
+<script src="https://cdn.jsdelivr.net/npm/d3@7.9.0/dist/d3.min.js"></script><script src="https://cdn.jsdelivr.net/npm/markmap-view@0.18.12/dist/browser/index.js"></script><script src="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.18.12/dist/index.js"></script><script>((r) => {
+                        setTimeout(r);
+                    })(() => {
+        const { markmap, mm } = window;
+        const toolbar = new markmap.Toolbar();
+        toolbar.attach(mm);
+        const el = toolbar.render();
+        el.setAttribute('style', 'position:absolute;bottom:20px;right:20px');
+        document.body.append(el);
+    })</script><script>((getMarkmap, getOptions, root2, jsonOptions) => {
+              const markmap = getMarkmap();
+              window.mm = markmap.Markmap.create(
+                "svg#mindmap",
+                (getOptions || markmap.deriveOptions)(jsonOptions),
+                root2
+              );
+              if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
+                document.documentElement.classList.add("markmap-dark");
+              }
+            })(() => window.markmap,null,{"content":"Roadmap","children":[{"content":"Q1 2025","children":[{"content":"MVP &#xb9b4;&#xb9ac;&#xc988;","children":[],"payload":{"tag":"li","lines":"4,5"}},{"content":"&#xc0ac;&#xc6a9;&#xc790; &#xc778;&#xc99d;","children":[],"payload":{"tag":"li","lines":"5,6"}},{"content":"&#xae30;&#xbcf8; CRUD","children":[],"payload":{"tag":"li","lines":"6,8"}}],"payload":{"tag":"h2","lines":"2,3"}},{"content":"Q2 2025","children":[{"content":"&#xc131;&#xb2a5; &#xcd5c;&#xc801;&#xd654;","children":[],"payload":{"tag":"li","lines":"10,11"}},{"content":"&#xbaa8;&#xbc14;&#xc77c; &#xc9c0;&#xc6d0;","children":[],"payload":{"tag":"li","lines":"11,12"}},{"content":"&#xb2e4;&#xad6d;&#xc5b4;","children":[],"payload":{"tag":"li","lines":"12,14"}}],"payload":{"tag":"h2","lines":"8,9"}},{"content":"Q3 2025","children":[{"content":"&#xc624;&#xd508;&#xc18c;&#xc2a4; &#xacf5;&#xac1c;","children":[],"payload":{"tag":"li","lines":"16,17"}},{"content":"&#xd50c;&#xb7ec;&#xadf8;&#xc778; &#xc2dc;&#xc2a4;&#xd15c;","children":[],"payload":{"tag":"li","lines":"17,18"}},{"content":"API &#xbb38;&#xc11c;&#xd654;","children":[],"payload":{"tag":"li","lines":"18,19"}}],"payload":{"tag":"h2","lines":"14,15"}}],"payload":{"tag":"h1","lines":"0,1"}},null)</script>
+</body>
+</html>
