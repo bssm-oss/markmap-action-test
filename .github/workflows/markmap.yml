@@ -1,4 +1,4 @@
-name: Generate Markmap
+name: Generate and Deploy Markmap
 
 on:
   push:
@@ -8,11 +8,16 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: write
+  contents: read
+  pages: write
+  id-token: write
 
 jobs:
-  markmap:
+  deploy:
     runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
     steps:
       - uses: actions/checkout@v4
 
@@ -20,6 +25,13 @@ jobs:
         with:
           files: '**/*.md'
           output-dir: '.markmap'
-          format: 'svg'
+          format: 'html'
           toolbar: 'true'
-          commit-message: 'chore: update markmap visualizations [skip ci]'
+          commit: 'false'
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: '.markmap'
+
+      - id: deploy
+        uses: actions/deploy-pages@v4
