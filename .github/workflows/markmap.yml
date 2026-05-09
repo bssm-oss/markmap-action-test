@@ -20,6 +20,6 @@ jobs:
         with:
           files: '**/*.md'
           output-dir: '.markmap'
+          format: 'svg'
           toolbar: 'true'
-          offline: 'false'
           commit-message: 'chore: update markmap visualizations [skip ci]'
